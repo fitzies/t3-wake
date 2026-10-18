@@ -1,0 +1,46 @@
+# Runtime state and logs
+*.sqlite
+*.sqlite-*
+*.db
+*.log
+logs/
+state/
+
+# Webhook URL, bearer key and other credentials
+*.cred
+*.cred.tmp
+webhook.json
+webhook.json.tmp
+*.key
+*.pem
+.env
+.env.*
+secrets/
+
+# Local settings (start from config.example.json)
+config.json
+config.local.json
+*.local.json
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

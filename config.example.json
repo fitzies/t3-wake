@@ -1,0 +1,13 @@
+{
+  "source": "t3-wake",
+  "labels": {},
+  "detection": {
+    "user_created_by": ["user"],
+    "mcp_created_by": ["agent"],
+    "mcp_creation_source": ["mcp"],
+    "include_t3_agents": false
+  },
+  "quiet_window_s": 20,
+  "per_thread_min_interval_s": 60,
+  "global_cap_per_hour": 30
+}
